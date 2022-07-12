@@ -15,17 +15,15 @@ public class Paciente {
     private Long id;
     private String nombre;
     private String apellido;
+    @OneToOne (cascade=CascadeType.ALL)
+    @JoinColumn(name = "domicilio_id", referencedColumnName="id")
+    private Domicilio domicilio;
     private int dni;
     private LocalDate fechaAlta;
 
     @OneToMany (mappedBy= "paciente")
     @JsonIgnore
     private Set<Turno> turnos;
-
-    @OneToOne
-    @JoinColumn(name = "domicilio_id", nullable = false)
-    private Domicilio domicilio;
-
 
     public Paciente() {
     }

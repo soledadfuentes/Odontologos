@@ -1,6 +1,6 @@
 package com.example.appOdontologo.service;
 
- import com.example.appOdontologo.model.OdontologoDTO;
+ import com.example.appOdontologo.dto.OdontologoDTO;
 
  import java.util.Set;
 

@@ -1,4 +1,4 @@
-package com.example.appOdontologo.model;
+package com.example.appOdontologo.dto;
 
 public class DomicilioDTO {
     private Long id;
@@ -6,7 +6,6 @@ public class DomicilioDTO {
     private String localidad;
     private String calle;
     private int numero;
-
     public Long getId() {
         return id;
     }
@@ -46,4 +45,5 @@ public class DomicilioDTO {
     public void setNumero(int numero) {
         this.numero = numero;
     }
+
 }

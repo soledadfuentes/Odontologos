@@ -1,4 +1,4 @@
-package com.example.appOdontologo.model;
+package com.example.appOdontologo.dto;
 
 public class OdontologoDTO {
     private Long id;

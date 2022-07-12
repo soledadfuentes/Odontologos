@@ -13,10 +13,6 @@ public class Domicilio {
     private String calle;
     private int numero;
 
-    @OneToOne
-    @JoinColumn(name = "paciente_id", nullable = false)
-    private Paciente paciente;
-
     public Domicilio() {
     }
 
@@ -35,15 +31,7 @@ public class Domicilio {
         this.id = id;
     }
 
-    public Paciente getPaciente() {
-        return paciente;
-    }
-
-    public void setPaciente(Paciente paciente) {
-        this.paciente = paciente;
-    }
-
-    public String getProvincia() {
+   public String getProvincia() {
         return provincia;
     }
 

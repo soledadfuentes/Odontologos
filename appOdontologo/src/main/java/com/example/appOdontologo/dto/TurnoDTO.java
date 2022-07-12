@@ -1,4 +1,7 @@
-package com.example.appOdontologo.model;
+package com.example.appOdontologo.dto;
+
+import com.example.appOdontologo.model.Odontologo;
+import com.example.appOdontologo.model.Paciente;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

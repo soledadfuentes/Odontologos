@@ -1,12 +1,10 @@
 package com.example.appOdontologo.service.impl;
 
-import com.example.appOdontologo.model.OdontologoDTO;
+import com.example.appOdontologo.dto.OdontologoDTO;
 import com.example.appOdontologo.service.IOdontologoService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
-import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -32,4 +30,5 @@ class OdontologoServiceTest {
         }
         assertTrue(odoJose != null);
     }
+
 }
