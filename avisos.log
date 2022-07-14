@@ -1,0 +1,3 @@
+[2022-07-1121:52:19] [ INFO ] [OdontologoService:36] Paciente guardado
+[2022-07-1121:57:57] [ INFO ] [OdontologoService:30] Turno guardado
+[2022-07-1121:58:08] [ ERROR] [GlobalExceptionHandler:17] Request method 'POST' not supported
